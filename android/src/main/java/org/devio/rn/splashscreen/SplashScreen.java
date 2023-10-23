@@ -24,7 +24,7 @@ public class SplashScreen {
   /**
    * 打开启动屏
    */
-  public static void show(final Activity activity, final int themeResId, final int lottieId) {
+  public static void show(final Activity activity, final int themeResId, final int lottieId, final int contentView) {
     if (activity == null)
       return;
     mActivity = new WeakReference<Activity>(activity);
@@ -33,7 +33,7 @@ public class SplashScreen {
       public void run() {
         if (!activity.isFinishing()) {
           mSplashDialog = new Dialog(activity, themeResId);
-          mSplashDialog.setContentView(R.layout.launch_screen);
+          mSplashDialog.setContentView(contentView);
           mSplashDialog.setCancelable(false);
           LottieAnimationView lottie = (LottieAnimationView) mSplashDialog.findViewById(lottieId);
 
