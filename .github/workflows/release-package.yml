@@ -48,4 +48,4 @@ jobs:
       - name: Publish Package
         run: yarn publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
