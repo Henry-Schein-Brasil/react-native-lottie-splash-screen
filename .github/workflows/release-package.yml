@@ -40,10 +40,11 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Create .npmrc file
-        run: - run: echo "@henry-schein-brasil:registry=https://npm.pkg.github.com
-//npm.pkg.github.com/:_authToken=${{secrets.TOKEN}}
-always-auth=true" > ~/.npmrc
-        
+        run: |
+          echo "@henry-schein-brasil:registry=https://npm.pkg.github.com
+          //npm.pkg.github.com/:_authToken=${{secrets.TOKEN}}
+          always-auth=true" > ~/.npmrc
+
       - name: Publish Package
         run: yarn publish
         env:
