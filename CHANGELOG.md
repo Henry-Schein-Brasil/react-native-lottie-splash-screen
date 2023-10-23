@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.5](https://github.com/Henry-Schein-Brasil/react-native-lottie-splash-screen/compare/v1.2.4...v1.2.5) (2023-10-23)
+
+
+### Bug Fixes
+
+* package name ([2fe011d](https://github.com/Henry-Schein-Brasil/react-native-lottie-splash-screen/commit/2fe011d4895d0b06fbfe5de8fb0c41433b66f0c3))
+
 ### [1.2.4](https://github.com/Henry-Schein-Brasil/react-native-lottie-splash-screen/compare/v1.2.3...v1.2.4) (2023-10-23)
 
 
