@@ -91,9 +91,9 @@ public class SplashScreen {
     });
   }
 
-  public static void show(final Activity activity, int lottieId) {
+  public static void show(final Activity activity, int lottieId, int contentView) {
     int resourceId = R.style.SplashScreen_SplashTheme;
-    show(activity, resourceId, lottieId);
+    show(activity, resourceId, lottieId, contentView);
   }
 
   /**
